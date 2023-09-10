@@ -1,0 +1,33 @@
+/* pages/pay/pay.wxss */
+.logo {
+  width: 350rpx;
+  height: 83rpx;
+  margin-left: 180rpx;
+}
+.pay-box {
+  padding-top: 170rpx;
+  width: 100%;
+}
+.tips {
+  margin-top: 50rpx;
+  background-color: #fef9f1;
+  color: #f03b3b;
+  font-size: 28rpx;
+  line-height: 55rpx;
+  width: 610rpx;
+  margin-left: 50rpx;
+  border-radius: 20rpx;
+  padding: 10rpx 20rpx 10rpx 20rpx;
+  text-align: center;
+} 
+.tips-1, .tips-2 {
+  width: 100%;
+}
+.tips-2 {
+  font-weight: bold;
+}
+.pay {
+  width: 750rpx;
+  height: 300rpx;
+  background-color: aqua;
+}

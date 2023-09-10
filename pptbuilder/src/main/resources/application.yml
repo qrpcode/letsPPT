@@ -1,0 +1,10 @@
+server:
+  port: 12301
+spring:
+  application:
+    name: pptbuild
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///pptshow?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root

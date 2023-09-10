@@ -1,0 +1,62 @@
+/* pages/login/login.wxss */
+.login-box {
+  position: fixed;
+  height: 900rpx;
+  width: 700rpx;
+  left: 25rpx;
+  top: 250rpx;
+}
+
+.logo {
+  width: 350rpx;
+  height: 83rpx;
+  margin-left: 180rpx;
+}
+
+.login-title {
+  padding-top: 150rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 38rpx;
+  color: #555;
+}
+
+.login-yes {
+  margin: 0 auto;
+  width: 700rpx;
+  height: 100rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36rpx;
+  background-image: linear-gradient(to right, #00C0FF, #0099ff);
+  box-shadow: 0 0 25rpx rgba(0, 153, 255, 0.42);
+  color: #FFFFFF;
+  line-height: 100rpx;  
+  border-radius: 50rpx;
+  position: relative;
+  margin-top: 150rpx;
+}
+
+.login-yes-btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100rpx;
+  opacity: 0;
+}
+
+.login-no {
+  margin: 0 auto;
+  width: 698rpx;
+  height: 98rpx;
+  border: 1rpx solid #00C0FF;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36rpx;
+  color: #0099ff;
+  line-height: 100rpx;  
+  border-radius: 50rpx;
+  position: relative;
+  margin-top: 50rpx;
+}

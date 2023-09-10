@@ -1,0 +1,21 @@
+{
+  "description": "",
+  "projectname": "%25E7%2599%25BB%25E5%25BD%2595%25E5%258A%25A9%25E6%2589%258B",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "pages/pay/pay",
+          "query": "scene=m%3D1%26t%3D1%26p%3Dwx",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

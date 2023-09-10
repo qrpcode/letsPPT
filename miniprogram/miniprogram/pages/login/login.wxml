@@ -1,0 +1,9 @@
+<!--pages/login/login.wxml-->
+<view class="login-box">
+  <image src="../logo.png" class="logo" />
+  <view class="login-title">您确认登录模板狗吗？</view>
+  <view class="login-yes">登录
+    <button open-type="getUserInfo" class="login-yes-btn" bindtap="login" style="width: 700rpx;">登录</button>
+  </view>
+  <view class="login-no" bindtap="notLogin">取消</view>
+</view>

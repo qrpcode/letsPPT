@@ -1,0 +1,5 @@
+<!--pages/success/success.wxml-->
+<view class="success-box">
+  <icon class="icon-box-img" type="success" size="200rpx"></icon>
+  <view class="box-tip">登录成功</view>
+</view>

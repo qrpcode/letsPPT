@@ -1,0 +1,8 @@
+<!--pages/pay/pay.wxml-->
+<view class="pay-box">
+  <image src="../logo.png" class="logo" />
+  <view class="tips">
+    <view class="tips-1">您正在【模板狗】官网进行扫码付款操作</view>
+    <view class="tips-2">网站不刷单，让您扫截图付款的都是骗子</view>
+  </view>
+</view>

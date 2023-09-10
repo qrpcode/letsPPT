@@ -1,0 +1,5 @@
+<image class="banner" src="wxbanner.png"> </image>
+<view class="web-tip">电脑端输入以下网址，扫码后即可微信登录</view>
+<view class="web-link">https://mubangou.com</view>
+<view class="web-copy" bindtap="copyLink">复制网址</view>
+<view class="login" bindtap="scanCode">微信扫码登录</view>

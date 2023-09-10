@@ -1,0 +1,7 @@
+<!--pages/pay/pay.wxml-->
+<view class="pay-box">
+  <view class="tips">
+    <view class="tips-1">您正在网页扫码购买，谢谢您的光临</view>
+    <view class="tips-2">正在拉起收银台...</view>
+  </view>
+</view>

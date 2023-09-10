@@ -1,0 +1,50 @@
+/**index.wxss**/
+.banner {
+  height: 398rpx;
+  width: 750rpx;
+  margin-bottom: 150rpx;
+}
+
+.web-tip {
+  width: 80%;
+  font-size: 30rpx;
+  color: #777;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.web-link {
+  width: 100%;
+  font-size: 45rpx;
+  color: rgb(40, 140, 255);
+  text-align: center;
+  height: 150rpx;
+  line-height: 150rpx;
+}
+
+.web-copy {
+  width: 400rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  border: 1rpx solid #777;
+  border-radius: 35rpx;
+  margin: 0 auto;
+  font-size: 30rpx;
+}
+
+.login {
+  position: fixed;
+  bottom: 90rpx;
+  left: 25rpx;
+  width: 700rpx;
+  height: 100rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36rpx;
+  background-image: linear-gradient(to right, #00C0FF, #0099ff);
+  box-shadow: 0 0 25rpx rgba(0, 153, 255, 0.42);
+  color: #FFFFFF;
+  line-height: 100rpx;  
+  border-radius: 50rpx;
+}
