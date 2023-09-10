@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+.head {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
+
+.logo {
+    position: fixed;
+    width: 150px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+}
+
+.head-box {
+    width: 350px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.head-seal {
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 14px;
+    float: left;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #c0c0c0;
+    color: #444;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.head-seal-hot {
+    background-color: #FF0000;
+    color: #FFF;
+}
+
+.main {
+    padding-top: 130px;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.head-tip {
+    color: #1a6300;
+    float: left;
+    height: 30px;
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.ppt-box {
+    width: 1275px;
+}
+
+.ppt {
+    width: 293px;
+    margin-right: 25px;
+    height: auto;
+    float: left;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.ppt-title {
+    line-height: 25px;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 5px;
+    height: 60px;
+    line-height: 30px;
+}
+
+.ppt img {
+    width: 100%;
+    height: 989px;
+}
+
+.ppt-id {
+    height: 30px;
+    color: #555;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ppt-great-seal {
+    position: absolute;
+    width: 100%;
+    height: 989px;
+    background-color: rgb(8, 110, 0);
+    opacity: 0.58;
+    top: 65px;
+    background-image: url("../img/youzhi.png");
+    background-size: 33.33% auto;
+}
+
+.ppt-bad-seal {
+    position: absolute;
+    width: 100%;
+    height: 989px;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 0.8;
+    top: 65px;
+    background-image: url("../img/zuofei.png");
+    background-size: 33.33% auto;
+}
+
+.save {
+    width: 100%;
+    height: 300px;
+}
+
+.save-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #006bf7;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+}
