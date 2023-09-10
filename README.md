@@ -143,7 +143,7 @@ hey bro，这很简单，放青松🌲
 
 ## 🔥需要我的免费帮助吗
 
-如果您**能够提供符合以下条件的内推帮助**，您可以直接添加我的私人微信 iamqrp 咨询，备注：letsppt（**我有一个朋友可能需要您的帮助**<img src="readme-img/emoji_80_doge.png" alt="emoji_80_doge" style="zoom:20%;" />)：
+如果您**能够提供符合以下条件的内推帮助**，您可以直接添加我的私人微信 iamqrp 咨询，备注：letsppt（**我有一个朋友可能需要您的帮助**<img src="readme-img/emoji_18_doge.png" alt="emoji_80_doge" style="zoom:20%;" />)：
 
 1. **工作的组确认没有酒桌文化（必须）**；
 2. 英语水平要求不高；
