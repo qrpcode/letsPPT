@@ -31,35 +31,35 @@ https://user-images.githubusercontent.com/53297393/245331343-43c1cd94-e3b3-41d2-
 
 C端新用户弹窗
 
-![新用户弹窗](readme-img\新用户弹窗.png)
+![新用户弹窗](readme-img/新用户弹窗.png)
 
 PPT展示单页
 
-![PPT单页](readme-img\PPT单页.png)
+![PPT单页](readme-img/PPT单页.png)
 
 Tag关键词页
 
-![tag页面](readme-img\tag页面.png)
+![tag页面](readme-img/tag页面.png)
 
 小程序扫码登录
 
-![登录服务](readme-img\登录服务.png)
+![登录服务](readme-img/登录服务.png)
 
 手机验证码绑定（支持小程序扫码后依旧强制绑定手机号）
 
-![手机登录](readme-img\手机登录.png)
+![手机登录](readme-img/手机登录.png)
 
 用户协议文本页面
 
-![用户协议页面](readme-img\用户协议页面.png)
+![用户协议页面](readme-img/用户协议页面.png)
 
 会员开通付款页面
 
-![PPT会员购买](readme-img\PPT会员购买.png)
+![PPT会员购买](readme-img/PPT会员购买.png)
 
 SEO友好的动态面包屑
 
-![近似词面包屑](readme-img\近似词面包屑.png)
+![近似词面包屑](readme-img/近似词面包屑.png)
 
 ### 标注系统
 
@@ -67,13 +67,13 @@ SEO友好的动态面包屑
 
 支持根据选择内容**自动推测元素含义**，支持文本提取，**支持常用元素快速标注**
 
-![标注系统](readme-img\标注系统.png)
+![标注系统](readme-img/标注系统.png)
 
 ### 用户购买
 
 百度文库渠道上传了几个模板进行测试，目前已经产生购买订单，说明PPT生成质量还算说得过去
 
-![百度文库后台收益](readme-img\百度文库后台收益.png)
+![百度文库后台收益](readme-img/百度文库后台收益.png)
 
 
 
@@ -143,7 +143,7 @@ hey bro，这很简单，放青松🌲
 
 ## 🔥需要我的免费帮助吗
 
-如果您**能够提供符合以下条件的内推帮助**，您可以直接添加我的私人微信 iamqrp 咨询，备注：letsppt（**我有一个朋友可能需要您的帮助**<img src="D:\ppt\letsPPT\readme-img\emoji_80_doge.png" alt="emoji_80_doge" style="zoom:20%;" />)：
+如果您**能够提供符合以下条件的内推帮助**，您可以直接添加我的私人微信 iamqrp 咨询，备注：letsppt（**我有一个朋友可能需要您的帮助**<img src="readme-img/emoji_80_doge.png" alt="emoji_80_doge" style="zoom:20%;" />)：
 
 1. **工作的组确认没有酒桌文化（必须）**；
 2. 英语水平要求不高；
