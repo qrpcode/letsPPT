@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>模板狗 人工标注工具</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="js/jquery.min.js"></script>
+    <!--  <script src="js/watermark.js"></script>-->
+</head>
+<body>
+<div class="head"></div>
+<div class="tab">
+    <div class="tab-page">当前页数：1/1</div>
+    <a onclick="lastPage()">上一页</a>
+    <a onclick="nextPage()">下一页</a>
+    <a onclick="refreshPage()">重置本页</a>
+    <a onclick="abandonPage()">废弃文件</a>
+    <a onclick="getNextFile()">下一个文件</a>
+    <div class="cart-btn" onclick="cartShow()">素材车</div>
+</div>
+<div class="ppt-page-option">
+    <div class="sign-box">
+        <div class="group-label-box">
+            <label>
+                <span>页面</span>
+                <select onclick="chooseSelect('page-page-page')" id="page-page-page">
+                    <option value=""></option>
+                    <option value="contents">目录页</option>
+                    <option value="introduction">引言页</option>
+                    <option value="home">首页</option>
+                    <option value="bigTitle">大标题页</option>
+                    <option value="thank">感谢页</option>
+                    <option value="innerNormal">内页通用元素</option>
+                    <option value="timeAxis">时间轴</option>
+                    <option value="imgText">图文页</option>
+                    <option value="pyramid">金字塔</option>
+                    <option value="barChart">条形图</option>
+                    <option value="innerTitle">内页通用标题</option>
+                    <option value="lineChart">折线图</option>
+                    <option value="fanChart">扇形图</option>
+                    <option value="architecture">架构图</option>
+                    <option value="quote">引用页</option>
+                    <option value="part">分项页</option>
+                    <option value="number">数据页</option>
+                </select>
+            </label>
+        </div>
+        <div class="group-label-box">
+            <label>
+                <span>页面</span>
+                <select onclick="chooseSelect('page-page-background') " id="page-page-background">
+                    <option value="none">无需背景</option>
+                    <option value="around">环绕背景</option>
+                    <option value="left">左侧背景</option>
+                    <option value="right">右侧背景</option>
+                    <option value="top">上侧背景</option>
+                    <option value="bottom">下部背景</option>
+                    <option value="mark">遮罩层背景</option>
+                </select>
+            </label>
+        </div>
+        <div class="group-label-box">
+            <label>
+                <span>页面</span>
+                <select onclick="chooseSelect('page-page-special') " id="page-page-special">
+                    <option value="0">常规</option>
+                    <option value="1">党建类</option>
+                    <option value="2">英文类</option>
+                </select>
+            </label>
+        </div>
+    </div>
+</div>
+<div class="ppt-main" style="background: url('img/wait.png')">
+</div>
+<div class="ppt-foot"></div>
+<!--<div class="operation-box">-->
+<!--    <div class="element-btn-box">-->
+<!--        <div class="element-text-show">当前选中: #<span>15</span> 20XX</div>-->
+<!--        <div class="element-btn" onclick="deleteElement()">删除元素</div>-->
+<!--    </div>-->
+<!--    <div class="operation-save-btn" onclick="saveGroup()">保存本组</div>-->
+<!--</div>-->
+<div class="mark cart-mark">
+    <div class="cart">
+        <div class="close-btn" onclick="cartClose()">×</div>
+        <div class="flush-btn" onclick="flushPageElementList()"></div>
+        <div class="cart-tab">
+            <div id="cart-list" class="cart-tab-once cart-tab-hot" onclick="cartListShow()">本页素材</div>
+            <div id="cart-delete" class="cart-tab-once" onclick="cartDeleteShow()">本页删除</div>
+        </div>
+        <div class="cart-del"></div>
+        <div class="cart-list"></div>
+    </div>
+</div>
+<div class="save-tab">
+    <div class="type-infer">
+        <!--自动获取可能的元素-->
+        <div onclick="saveGroupWithType('home', '4')">文本在中间-两侧竖线</div>
+        <div>分支主干</div>
+        <div>分支主干</div>
+    </div>
+    <div class="type-choose">
+        <!--手动选择-->
+    </div>
+    <div class="fast-choose">
+        <div class="tab-delete" onclick="deleteElement()"></div>
+        <div class="tab-logo" onclick="saveGroupWithType('home', '4')">LOGO</div>
+        <div class="tab-icon" onclick="saveGroupWithType('innerNormal', '80')">图标</div>
+        <div class="tab-quick-element" onclick="saveGroupWithType('innerNormal', '118')">固定元素</div>
+        <div class="tab-line" onclick="saveGroupWithType('innerNormal', '43')">线条</div>
+        <div class="tab-all" onclick="saveGroupWithType('innerNormal', 'page')">整页</div>
+    </div>
+</div>
+
+<script src="js/home.js?20225209"></script>
+</body>
+</html>

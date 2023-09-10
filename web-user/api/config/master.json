@@ -1,0 +1,49 @@
+{
+    "GLOBAL": {
+        "needBuildPic": true,
+        "needUpdatePic": true,
+        "ImgCdnLink": "http://img-bak.mubangou.com/",
+        "imgBucketName": "boolduck-bak",
+        "needBuildVideo": false,
+        "needUpdateVideo": false,
+        "needUpdateFile": false,
+        "beginBuildMinute": 0,
+        "endBuildMinute": 900,
+        "maxSizeNeed": 600,
+        "filesPath": "D:\\ppt\\today\\"
+    },
+    "DOC88": {
+        "useGlobal": true
+    },
+    "RRDOC": {
+        "useGlobal": true
+    },
+    "MBG": {
+        "needBuildVideo": true,
+        "needBuildPic": true,
+        "needUpdatePic": true,
+        "needUpdateVideo": true,
+        "needUpdateFile": true,
+        "ImgCdnLink": "https://img.mubangou.com/",
+        "imgBucketName": "mbg-img",
+        "fileBucketName": "mbg-down",
+        "beginBuildMinute": 305,
+        "endBuildMinute": 755,
+        "maxSizeNeed": 300,
+        "beginUpdateMinute": 485
+    },
+    "KUAI": {
+        "needBuildVideo": false,
+        "needUpdateVideo": false,
+        "needBuildPic": true,
+        "needUpdatePic": true,
+        "imgBucketName": "kuai-img",
+        "ImgCdnLink": "https://img.kuaippt.com/",
+        "needUpdateFile": true,
+        "fileBucketName": "mbg-down",
+        "beginBuildMinute": 305,
+        "endBuildMinute": 755,
+        "maxSizeNeed": 300,
+        "beginUpdateMinute": 485
+    }
+}

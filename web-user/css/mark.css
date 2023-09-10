@@ -1,0 +1,22 @@
+.first-use{
+    background-image: url("../img/mark/1.png");
+    background-size: cover;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 558px;
+    margin-left: -279px;
+    height: 600px;
+    margin-top: -300px;
+}
+
+@media screen and (max-width: 1070px) {
+
+    .first-use {
+        width: 358px;
+        margin-left: -179px;
+        height: 384px;
+        margin-top: -160px;
+    }
+
+}
