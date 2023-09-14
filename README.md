@@ -11,7 +11,7 @@ AI自动生成PPT文档的Java应用，一个标题生成PPT模板。
 - 审核端前端（PHP，原生html）
 - 登录端小程序（原生微信小程序）
 
-**ChatGPT接入中，目前版本是乱数假文！**
+**ChatGPT接入中，目前版本可以正常生成PPT模板，文字内容是随机的占位符**
 
 因为POI对2010版本PPT特性支持太差，我直接写了个Java原生生成PPT的jar工具包，开源官网在：[PPTShow官网](https://pptshow.cc/) 欢迎点个Star支持下！
    
